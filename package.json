@@ -1,0 +1,13 @@
+{
+  "name": "ai-solutions",
+  "version": "1.0.0",
+  "description": "AI-Solutions MERN Stack Application (SQLite) - CET333 Computer Systems Engineering",
+  "scripts": {
+    "backend": "cd backend && node server.js",
+    "frontend": "cd frontend && npm start",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "cd frontend && npm run build"
+  },
+  "author": "CET333 Student",
+  "license": "ISC"
+}
